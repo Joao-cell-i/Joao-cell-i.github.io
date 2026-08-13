@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+}
+.inicio{
+    background-color: rgba(91, 6, 6, 0.21);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(2px);
+    width:1000px ;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    
+}
+#texto1{
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    text-align: left;
+    margin-left: 200px;
+    background-color: rgba(69, 19, 115, 0.304);
+    border-radius: 5px;
+    padding-left: 0%;
+} 
+.logo{
+    margin: 5px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.fundo1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(ss_c0005eaa8d8caf4dc87a917ed525e2672c2be692.1920x1080.jpg);
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    background-position: center;
+    top: 0;
+    left: 0;
+}
+#texto2{
+    text-align: center;
+    color: rgb(41, 7, 7);
+    font-size: 40px;
+}
+.bot2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#b1{
+    height: 30px;
+    width: 100px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(137, 43, 226, 0.203);
+}
+#b2{
+    height: 30px;
+    width: 100px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(137, 43, 226, 0.203);
+}
+#b3{
+    height: 30px;
+    width: 100px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(137, 43, 226, 0.203);
+}
+#b4{
+    height: 30px;
+    width: 100px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(137, 43, 226, 0.203);
+  
+}
+#b1:hover{
+    height: 50px;
+    width: 120px;
+}
+#b2:hover{
+    height: 50px;
+    width: 120px;
+}
+#b3:hover{
+    height: 50px;
+    width: 120px;
+}
+#b4:hover{
+    height: 50px;
+    width: 120px;
+}
+#textoExp{
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    text-align: right;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 100px;
+    background-color: rgba(63, 12, 111, 0.274);
+    padding: 15px;
+    border-radius: 15px;
+} 
+#dimgdd1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border: 5px solid rgb(53, 1, 1);
+    height: 200px;
+    width: 400px;
+    border-radius: 7px;
+}
+#imgdd1{
+    height: 200px;
+    width: 400px;
+}
+
+
