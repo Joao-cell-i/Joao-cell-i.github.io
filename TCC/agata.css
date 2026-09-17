@@ -16,11 +16,11 @@ body{
     left: 0;
 }
 .inicio2{
-    background-color: rgba(255, 0, 0, 0.135);
+    background-color: rgba(10, 6, 91, 0.21);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     backdrop-filter: blur(2px);
     width:1000px ;
-    height: 550px;
+
     border-radius: 20px;
 }
 .img{
@@ -33,4 +33,64 @@ body{
     display: flex;
     align-items: center;
 
+}
+#agtr{
+    height: 250px;
+    transition: 0.2s;
+}
+#agtr:hover{
+    height: 270px;
+}
+.foto{
+    background-color: rgba(13, 2, 86, 0.523);
+    width: 170px;
+    padding: 7px;
+    border: 6px solid rgba(27, 18, 75, 0.285);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.card{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 196px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.textcard{
+    width: 178px;
+    background-color: rgba(3, 2, 86, 0.247);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 3px;
+    font-size: 16px;
+    border: 6px solid rgba(26, 7, 95, 0.107);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#ig{
+    font-size: 20px;
+    background-color: rgba(22, 11, 127, 0.452);
+    padding-left: 10px;
+    color: rgb(240, 248, 255);
+}
+.textodc{
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(61, 14, 105, 0.217);
+    border-radius: 20px;
+    margin-right: 75px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+}
+.quasetudo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+p{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial';
+    background-color: rgba(39, 7, 71, 0.441);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

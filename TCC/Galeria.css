@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+}
+.fundoP{
+    width: 100%;
+    height: 100vh;
+    background-image: url(ss_c0005eaa8d8caf4dc87a917ed525e2672c2be692.1920x1080.jpg);
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    background-position: center;
+    top: 0;
+    left: 0;
+}
+.inicio2{
+    background-color: rgba(10, 6, 91, 0.21);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(2px);
+    width:1000px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin: 5px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+}
+.quasetudo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 75px;
+}
+p{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial';
+    background-color: rgba(39, 7, 71, 0.441);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 1000px;
+}
+#img1{
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+.divimg{
+    background-color: rgba(48, 31, 64, 0.514);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.dupla{
+    display: flex;
+    justify-content: space-between;
+}
+.textexp{
+    background-color: rgba(43, 19, 52, 0.409);
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#img1:hover{
+    height: 225px;
+}
+.divimg:hover{
+    height: 245px;
+    font-size: smaller;
+}

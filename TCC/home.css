@@ -114,6 +114,7 @@ body{
     background-color: rgba(63, 12, 111, 0.274);
     padding: 15px;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 } 
 #dimgdd1{
     display: flex;
@@ -123,10 +124,16 @@ body{
     height: 200px;
     width: 400px;
     border-radius: 7px;
+    margin-top: 105px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #imgdd1{
     height: 200px;
     width: 400px;
+}
+.organiza{
+    display: flex;
+    justify-content: space-between;
 }
 
 

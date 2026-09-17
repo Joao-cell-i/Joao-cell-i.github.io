@@ -34,10 +34,6 @@ body{
     align-items: center;
 
 }
-#agt1{
-    height: 80px;
-    transition: 0.3s;
-}
 .opcoesP{
     display: flex ;
     justify-content: center;
@@ -45,39 +41,29 @@ body{
 #text1{
     font-size: 40px;
     text-align: center;
-    color: rgb(32, 16, 16);
+    color: rgb(30, 15, 15);
     font-family: 'Arial';
     background-color: rgba(71, 7, 7, 0.441);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#bie1{
-    height: 80px;
+#fase1:hover{
+    height: 120px;
+}
+#fase1{
     transition: 0.3s;
-}
-#malak{
-    height: 80px;
-    transition: 0.4s;
-}
-#malak:hover{
     height: 100px;
 }
-#bie1:hover{
+#fase2:hover{
+    height: 120px;
+}
+#fase2{
+    transition: 0.3s;
     height: 100px;
 }
-#agt1:hover{
-    height: 100px;
+#fase3:hover{
+    height: 120px;
 }
-#mmonkey{
-    height: 80px;
-    transition: 0.4s;
-}
-#mmonkey:hover{
-    height: 100px;
-}
-#Gold{
-    height: 80px;
-    transition: 0.4s;
-}
-#Gold:hover{
+#fase3{
+    transition: 0.3s;
     height: 100px;
 }
