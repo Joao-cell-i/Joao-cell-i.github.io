@@ -20,7 +20,6 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     backdrop-filter: blur(2px);
     width:1000px ;
-    height: 550px;
     border-radius: 20px;
 }
 .img{
@@ -48,6 +47,9 @@ body{
 }
 #fase1:hover{
     height: 120px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:rgba(0, 0, 0, 0.35) ;
 }
 #fase1{
     transition: 0.3s;
@@ -55,6 +57,9 @@ body{
 }
 #fase2:hover{
     height: 120px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:rgba(0, 0, 0, 0.35) ;
 }
 #fase2{
     transition: 0.3s;
@@ -62,8 +67,21 @@ body{
 }
 #fase3:hover{
     height: 120px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:rgba(0, 0, 0, 0.35) ;
 }
 #fase3{
     transition: 0.3s;
     height: 100px;
+
+}
+#text2{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(32, 16, 16);
+    font-family: 'Arial';
+    background-color: rgba(70, 7, 71, 0.142);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
 }

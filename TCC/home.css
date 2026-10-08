@@ -135,5 +135,18 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
+#textoExp2{
+    width: 350px;
+    font-size: 20px;
+    margin-left: 100px;
+    background-color: rgba(63, 12, 111, 0.274);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#textodetal{
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+}
 

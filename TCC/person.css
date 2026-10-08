@@ -49,10 +49,12 @@ body{
     font-family: 'Arial';
     background-color: rgba(71, 7, 7, 0.441);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
 }
 #bie1{
     height: 80px;
     transition: 0.3s;
+    width: 80px;
 }
 #malak{
     height: 80px;
@@ -60,12 +62,22 @@ body{
 }
 #malak:hover{
     height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(198, 42, 14, 0.098);
+    border-radius: 100px;
 }
 #bie1:hover{
     height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(59, 9, 105, 0.356);
+    border-radius: 100px;
+    width: 100px;
 }
 #agt1:hover{
     height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(12, 27, 126, 0.363);
+    border-radius: 100px;
 }
 #mmonkey{
     height: 80px;
@@ -73,6 +85,9 @@ body{
 }
 #mmonkey:hover{
     height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(90, 49, 16, 0.098);
+    border-radius: 100px;
 }
 #Gold{
     height: 80px;
@@ -80,4 +95,16 @@ body{
 }
 #Gold:hover{
     height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(198, 176, 14, 0.098);
+    border-radius: 100px;
+}
+#text2{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(32, 16, 16);
+    font-family: 'Arial';
+    background-color: rgba(70, 7, 71, 0.142);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
 }
